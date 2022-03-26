@@ -280,6 +280,7 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
+    width: 100%;
 }
 .mobile-navbar div{
     margin-right: 10px;
@@ -301,6 +302,9 @@ body{
     }
 }
 @media(max-width:1000px){
+    .mobile-navbar{
+        position: fixed;
+    }
     .grid-col-2{
         grid-template-columns: 1fr;
     }
@@ -342,7 +346,13 @@ body{
 
 
 @media(max-width:625px){
-
+    .navbar-brand img{
+        width: 25px;
+        height: 25px;
+    }
+    .mobile-menu{
+        top: 48px
+    }
     .home-grid{
         grid-template-columns: 1fr;
     }
@@ -369,6 +379,16 @@ body{
         align-items: center;
         padding:30px;
         margin: 0px;
+    }
+    .block-image{
+        width: 320px;
+        height: 270px;
+        margin: 40px auto;
+    }
+    .home-end{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .profile img{
         margin: auto;
