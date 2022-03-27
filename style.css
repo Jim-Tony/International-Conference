@@ -68,9 +68,8 @@ body{
     height: 400px;
     background-image: url(./img/start.jpg);
     /* background-repeat: repeat; */
-    background-position: center center;
-    background-attachment:fixed;
-    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
     object-fit: cover;
     display: flex;
     flex-direction: column;
@@ -280,7 +279,8 @@ body{
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: space-between;
     width: 100%;
 }
 .mobile-navbar div{
@@ -294,7 +294,7 @@ body{
 .no-scroll{
     overflow: hidden;
 }
-@media(min-width:1000px){
+@media(min-width:1001px){
     .mobile-navbar{
         display: none;
     }
