@@ -387,6 +387,11 @@ body{
         width: 100%;
         padding:40px;
     }
+    .column-one{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .map-element{
         display: flex;
         justify-content: center;
