@@ -302,12 +302,12 @@ body{
         display: none;
     }
 }
-@media(max-width:664px){
+/* @media(max-width:664px){
     .navbar-brand img{
         width: 30px;
         height: 30px;
     }
-}
+} */
 @media(max-width:1000px){
     .mobile-navbar{
         position: fixed;
@@ -359,7 +359,7 @@ body{
 }
 
 
-@media(max-width:625px){
+@media(max-width:646px){
     .navbar-brand img{
         width: 25px;
         height: 25px;
@@ -435,7 +435,7 @@ body{
     .mobile-menu .navbar-link{
         padding-top: 1.5rem;
         padding-bottom: 1.5rem;
-        font-size: 0.7rem;
+        font-size: 0.9rem;
         width: 5rem;
         text-align: center;
     }
