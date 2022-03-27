@@ -307,6 +307,9 @@ body{
         width: 30px;
         height: 30px;
     }
+    .mobile-menu{
+        top: 48px
+    }
 }
 @media(max-width:1000px){
     .mobile-navbar{
@@ -382,6 +385,9 @@ body{
     .mobile-navbar-name h2{
         font-size: 16px;
     }
+    .mobile-navbar div:first-child{
+        margin-left: 20px;
+    }
     .column-two{
         height:fit-content;
         width: 100%;
@@ -438,6 +444,9 @@ body{
         font-size: 0.9rem;
         width: 5rem;
         text-align: center;
+    }
+    .mobile-navbar div:first-child{
+        margin-left: 15px;
     }
     .text-xl{
         font-size: 20px;
