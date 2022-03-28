@@ -366,7 +366,7 @@ body{
         display: none;
     }
 }
-@media(max-width:664px){
+@media(max-width:684px){
     .navbar-brand img{
         width: 30px;
         height: 30px;
@@ -375,6 +375,7 @@ body{
         top: 48px
     }
 }
+
 @media(max-width:1000px){
     .mobile-navbar{
         position: fixed;
@@ -458,7 +459,7 @@ body{
         font-size: 1.1rem;
     }
     .mobile-navbar-name h2{
-        font-size: 16px;
+        font-size: 15px;
     }
     .mobile-navbar div:first-child{
         margin-left: 20px;
