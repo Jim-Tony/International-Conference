@@ -249,6 +249,23 @@ body{
     font-weight: bold;
     margin: 0.5rem 0px;
 }
+
+/* Gallery */
+.gallery-main{
+    margin: 3rem 0px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+.gallery-main img{
+    margin: 2rem;
+    width: 60vw;
+    height: 75vh;
+}
 /* Hamburger */
 .hamburger{
     cursor: pointer;
@@ -411,6 +428,11 @@ body{
         height: 50vh;
         width: 60vw;
     }
+    .gallery-main img{
+        margin: 2rem;
+        width: 75vw;
+        height: 60vh;
+    }
     
 }
 
@@ -477,6 +499,11 @@ body{
         margin-top: 4rem;
         height: 30vh;
         width: 50vw;
+    }
+    .gallery-main img{
+        margin: 2rem;
+        width: 75vw;
+        height: 40vh;
     }
 }
 
@@ -551,5 +578,10 @@ body{
         margin-top: 4rem;
         height: 40vh;
         width: 70vw;
+    }
+    .gallery-main img{
+        margin: 2rem;
+        width: 70vw;
+        height: 40vh;
     }
 }
