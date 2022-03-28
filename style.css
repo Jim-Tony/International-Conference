@@ -545,4 +545,9 @@ body{
         width: 250px;
         height: 250px;
     }
+    .org-image{
+        margin-top: 4rem;
+        height: 40vh;
+        width: 70vw;
+    }
 }
