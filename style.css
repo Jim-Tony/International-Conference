@@ -66,10 +66,13 @@ body{
 .home-start, .abstract-start, .speakers-start,.org-committee-start,.gallery-start{
     text-align: center;
     height: 400px;
-    background-image: url(./img/start.jpg);
+    background-image: url(./img/background.jpg);
     /* background-repeat: repeat; */
+    background-blend-mode: darken;
+    background-color: rgb(0 0 0 / 0.6);
     background-repeat: no-repeat;
     background-size: cover;
+    
     object-fit: cover;
     display: flex;
     flex-direction: column;
@@ -379,8 +382,8 @@ body{
     }
     .profile img{
         margin: auto;
-        width: auto;
-        height: auto;
+        width: 30vw;
+        height: 30vh;
     }
     .text-xl{
         font-size: 25px;
