@@ -221,7 +221,7 @@ body{
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    margin:3.5rem;
+    margin:2rem;
     background-color: rgb(168, 248, 248);
 }
 .patrons *{
@@ -593,3 +593,4 @@ body{
         height: 35vh;
     }
 }
+
