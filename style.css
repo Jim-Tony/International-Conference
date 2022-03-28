@@ -206,9 +206,15 @@ body{
 }
 .text-md{
     font-size: 20px;
+    font-weight: 400;
     margin-bottom: 20px;
 }
 /* Committee */
+.org-image{
+    margin-top: 4rem;
+    height: 60vh;
+    width: 50vw;
+}
 .committee-name{
     display: flex;
     flex-wrap: wrap;
@@ -382,8 +388,8 @@ body{
     }
     .profile img{
         margin: auto;
-        width: 30vw;
-        height: 30vh;
+        width: 35vw;
+        height: 35vh;
     }
     .text-xl{
         font-size: 25px;
@@ -398,6 +404,12 @@ body{
         padding:30px;
         margin: 0px;
     }
+    .org-image{
+        margin-top: 4rem;
+        height: 50vh;
+        width: 60vw;
+    }
+    
 }
 
 
@@ -458,6 +470,11 @@ body{
         margin: auto;
         width: 350px;
         height: 300px;
+    }
+    .org-image{
+        margin-top: 4rem;
+        height: 30vh;
+        width: 50vw;
     }
 }
 
