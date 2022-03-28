@@ -179,7 +179,7 @@ body{
     border: 1px solid #000;
 }
 .profile img{
-    height: 30vh;
+    height: 40vh;
     width: 20vw;
     margin:2rem auto;
     border-radius: 20px;
@@ -195,7 +195,7 @@ body{
     margin: 0 auto;
 }
 .text-xl{
-    font-size: 35px;
+    font-size: 33px;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 600;
@@ -383,7 +383,7 @@ body{
         height: auto;
     }
     .text-xl{
-        font-size: 30px;
+        font-size: 25px;
     }
     .text-md{
         font-size:19px;
